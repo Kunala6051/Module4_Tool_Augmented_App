@@ -1,0 +1,5 @@
+question,vanilla_answer,vanilla_sec,vanilla_tokens,tools_used,agent_answer,agent_sec_first,agent_tokens,agent_sec_cached
+What's the weather in Paris right now? Give the temperature in celsius.,"I'm unable to provide real-time weather updates. To find the current weather in Paris, I recommend checking a reliable weather website or app for the most accurate and up-to-date information.",3.32,58,"get_weather({'city': 'Paris', 'unit': 'celsius'})","The current weather in Paris is 13.6°C, overcast, with a humidity of 86% and a wind speed of 10.7 km/h.",3.97,409,0.02
+What's 42 x 19?,42 x 19 equals 798.,1.48,22,calculator({'expression': '42 * 19'}),42 x 19 equals 798.,1.96,339,0.01
+What's the weather in Paris and what is 42 x 19? Summarize both results in one sentence.,"I can't provide real-time weather updates, but 42 x 19 equals 798.",0.84,48,get_weather({'city': 'Paris'}); calculator({'expression': '42 * 19'}),"The weather in Paris is currently 13.6°C and overcast, while the result of 42 x 19 is 798.",2.01,482,0.0
+What is the capital of France?,The capital of France is Paris.,0.73,21,none (answered directly),The capital of France is Paris.,0.91,152,0.0
